@@ -30,10 +30,10 @@ body {
   border: 1px solid #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 2.4rem;
   color: #000000;
   text-align: center;
   padding: 1rem 2rem;
+  margin: 0 auto;
   min-width: 100px;
 }
 .button:hover, .button:active {
@@ -582,9 +582,12 @@ section {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .header__logo {
     width: 60%;
+  }
+  .header-burger {
+    width: 65%;
   }
   .header-nav {
     width: 100%;
@@ -597,15 +600,18 @@ section {
     transform: translateX(300%);
   }
   .header-nav .header-nav__menu {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
     flex-direction: column;
-    align-items: center;
   }
   .header-nav .header-nav__item {
     width: 100%;
-    padding: 100px 500px;
+    height: 100%;
     border: 1px solid #FFFFFF;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .header-nav .header-nav__item:hover, .header-nav .header-nav__item:active {
     background-color: #001F3D;
@@ -615,7 +621,7 @@ section {
   }
   .header-nav .header-nav__link {
     color: #FFFFFF;
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .header-nav--active {
     transform: translateX(0);
@@ -831,8 +837,15 @@ section {
   :root {
     font-size: 9px;
   }
-  .button {
-    width: 44%;
+  .header-body {
+    width: 74%;
+  }
+  .header__logo {
+    width: 85%;
+  }
+  .header-burger__inner {
+    width: 35px;
+    height: 26px;
   }
   .header-search__input {
     background-position: 50% center;
@@ -844,6 +857,9 @@ section {
   .benefits__card-stripe {
     font-size: 2.3rem;
   }
+  .benefits__card-button {
+    width: 60%;
+  }
   .poster {
     background: url(../../image/poster/poster.jpg) bottom right/300% 100% no-repeat;
   }
@@ -854,7 +870,7 @@ section {
     margin-bottom: 160px;
   }
   .about__card-button {
-    width: 60%;
+    width: 75%;
   }
   .about-history {
     padding: 150px 30px 40px 30px;
@@ -867,12 +883,32 @@ section {
     font-size: 4rem;
   }
   .about-history__button {
-    width: 65%;
+    width: 70%;
   }
   .footer__menu-item:not(:last-child) {
     margin-bottom: 50px;
   }
   .footer__menu {
     width: 90%;
+  }
+}
+@media screen and (max-width: 355px) {
+  .button {
+    padding: 1rem 1rem;
+  }
+  .header-top {
+    flex-wrap: wrap;
+  }
+  .header__logo {
+    margin-bottom: 15px;
+  }
+  .header-burger {
+    width: 45%;
+  }
+  .about__card-button {
+    width: 100%;
+  }
+  .about-history__image {
+    bottom: 88%;
   }
 }/*# sourceMappingURL=main.css.map */

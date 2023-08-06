@@ -44,11 +44,12 @@ body {
    border: 1px solid $color1;
    font-family: $openSans;
    font-weight: 300;
-   font-size: 2.4rem;
    color: $color1;
    text-align: center;
    padding: 1rem 2rem;
+   margin: 0 auto;
    min-width: 100px;
+
 
    &:hover,
    &:active {
@@ -657,11 +658,15 @@ section {
 
 // FOOTER END
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
 
    // HEADER
    .header__logo {
       width: 60%;
+   }
+
+   .header-burger {
+      width: 65%;
    }
 
    .header-nav {
@@ -677,19 +682,23 @@ section {
 
 
       .header-nav__menu {
+         height: 100%;
+         width: 100%;
+         overflow-y: scroll;
+
          flex-direction: column;
-         align-items: center;
+
       }
 
 
       .header-nav__item {
          width: 100%;
-         padding: 100px 500px;
+         height: 100%;
          border: 1px solid $color4 ;
 
          display: flex;
          justify-content: center;
-
+         align-items: center;
 
          &:hover,
          &:active {
@@ -703,7 +712,7 @@ section {
 
       .header-nav__link {
          color: $color4;
-         font-size: 5rem;
+         font-size: 3rem;
       }
    }
 
@@ -1008,8 +1017,17 @@ section {
       font-size: 9px;
    }
 
-   .button {
-      width: 44%;
+   .header-body {
+      width: 74%;
+   }
+
+   .header__logo {
+      width: 85%;
+   }
+
+   .header-burger__inner {
+      width: 35px;
+      height: 26px;
    }
 
    .header-search__input {
@@ -1031,6 +1049,10 @@ section {
       font-size: 2.3rem;
    }
 
+   .benefits__card-button {
+      width: 60%;
+   }
+
    // 
    // POSTER
    .poster {
@@ -1048,7 +1070,7 @@ section {
    }
 
    .about__card-button {
-      width: 60%;
+      width: 75%;
    }
 
    .about-history {
@@ -1065,7 +1087,7 @@ section {
    }
 
    .about-history__button {
-      width: 65%;
+      width: 70%;
    }
 
    // 
@@ -1079,4 +1101,39 @@ section {
    }
 
    // 
+}
+
+@media screen and (max-width:355px) {
+
+   // button
+   .button {
+      padding: 1rem 1rem
+   }
+
+   // 
+
+   // HEADER
+   .header-top {
+      flex-wrap: wrap;
+   }
+
+   .header__logo {
+      margin-bottom: 15px;
+   }
+
+   .header-burger {
+      width: 45%;
+   }
+
+   // 
+   // ABOUT
+   .about__card-button {
+      width: 100%;
+   }
+
+   .about-history__image {
+      bottom: 88%;
+   }
+
+   //   
 }
