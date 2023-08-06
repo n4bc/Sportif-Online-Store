@@ -683,8 +683,13 @@ section {
 
 
       .header-nav__item {
+         width: 100%;
          padding: 100px 500px;
          border: 1px solid $color4 ;
+
+         display: flex;
+         justify-content: center;
+
 
          &:hover,
          &:active {
