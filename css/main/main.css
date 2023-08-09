@@ -911,4 +911,12 @@ section {
   .about-history__image {
     bottom: 88%;
   }
+  .footer-form__mail {
+    width: 100%;
+  }
+  .footer-form__button {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-width: 0 1px 1px 1px;
+  }
 }/*# sourceMappingURL=main.css.map */

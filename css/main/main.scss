@@ -1136,4 +1136,15 @@ section {
    }
 
    //   
+   // Footer
+   .footer-form__mail {
+      width: 100%;
+
+   }
+
+   .footer-form__button {
+      width: 100%;
+      border: 1px solid $color4;
+      border-width: 0 1px 1px 1px;
+   }
 }
