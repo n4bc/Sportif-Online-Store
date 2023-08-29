@@ -1,0 +1,49 @@
+.header-top {
+  margin-bottom: 50px;
+}
+
+.header-bottom {
+  display: flex;
+}
+
+.header-bottom__logo {
+  margin-right: 5px;
+}
+
+.breadcrumbs__list {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+.breadcrumbs__list li {
+  display: inline-block;
+  position: relative;
+}
+.breadcrumbs__list li a {
+  color: #000000;
+  opacity: 0.7;
+}
+.breadcrumbs__list li a:hover {
+  color: #A04955;
+  transition: all 0.3s linear;
+}
+.breadcrumbs__list li:last-child span {
+  color: #000000;
+}
+.breadcrumbs__list li + li {
+  padding-left: 20px;
+}
+.breadcrumbs__list li + li::before {
+  content: "";
+  display: inline-block;
+  background-color: transparent;
+  width: 15px;
+  height: 15px;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  transform: rotateZ(45deg);
+  position: absolute;
+  top: 25%;
+  left: 0;
+  transform: translate(-25%) rotateZ(45deg);
+}/*# sourceMappingURL=catalog.css.map */
