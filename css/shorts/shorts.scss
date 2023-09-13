@@ -100,3 +100,25 @@ $color5: #A04955;
    border-bottom: 2px solid #C4C4C4;
    padding-left: 20px;
 }
+
+
+.catalog {
+   display: grid;
+   grid-template-columns: 0.3fr 0.9fr;
+   align-items: center;
+
+   background-color: #F1F1F1;
+
+}
+
+.catalog-filter {}
+
+.filter {}
+
+.filter__list {}
+
+.filter__list-category {}
+
+.filter__list-item {}
+
+.cards {}

@@ -252,6 +252,10 @@ section {
    width: 90%;
 }
 
+.cards--products {
+   width: 100%;
+}
+
 .card {
    display: flex;
    flex-direction: column;
@@ -261,6 +265,12 @@ section {
    background-color: $color4;
    width: 20%;
    padding: 30px 20px;
+}
+
+
+
+.card--products {
+   width: 33%;
 }
 
 .card-image {
