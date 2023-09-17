@@ -252,9 +252,6 @@ section {
    width: 90%;
 }
 
-.cards--products {
-   width: 100%;
-}
 
 .card {
    display: flex;
@@ -268,11 +265,6 @@ section {
 }
 
 
-
-.card--products {
-   width: 33%;
-}
-
 .card-image {
    margin-bottom: 10px;
 }
@@ -284,11 +276,14 @@ section {
 }
 
 .card__title {
-   font-family: $oswald;
+   font-family: "Oswald", sans-serif;
    font-weight: 500;
    font-size: 2.4rem;
    margin-bottom: 5px;
+   display: block;
+   overflow: hidden;
    line-height: 35px;
+   height: 40px;
 }
 
 .card__mark {
@@ -816,9 +811,6 @@ section {
       margin-bottom: 30px;
    }
 
-   .card__title {
-      margin-bottom: 15px;
-   }
 
 }
 

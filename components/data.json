@@ -13,8 +13,8 @@
    },
    {
       "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
+      "name": "Texar Dominus Shorts",
+      "price": "43.00",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
       "size": [
          32,
@@ -24,10 +24,20 @@
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
+      "id": 3,
+      "name": "Helikon UTS Shorts Shadow Grey",
+      "price": "42.30",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100466_Szorty-Helikon-UTS-8-5-Shadow-Grey-SP-UTS-PR-35-100466-zdjecie-glowne.jpg",
+      "size": [
+         32,
+         34
+      ]
+   },
+   {
+      "id": 4,
+      "name": "Helikon UTS 11 Shorts Crimson Sky/Ash Grey",
+      "price": "42.87",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96172_Szorty-Helikon-UTS-11-Crimson-SkyAsh-Grey-SP-UTK-PR-8385A-135957-zdjecie-glowne.jpg",
       "size": [
          32,
          34,
@@ -36,9 +46,21 @@
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
+      "id": 5,
+      "name": "Helikon BDU Cotton Ripstop Shorts US Desert",
+      "price": "27.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/7/97073_Szorty-Helikon-BDU-Cotton-Ripstop-US-Desert.jpg",
+      "size": [
+         32,
+         34,
+         36,
+         38
+      ]
+   },
+   {
+      "id": 6,
+      "name": "Texar WZ10 Shorts - Olive",
+      "price": "55.00",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
       "size": [
          32,
@@ -48,337 +70,207 @@
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 7,
+      "name": "Helikon CPU PoliCotton Ripstop Shorts Coyote",
+      "price": "37.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96881_Szorty-Helikon-CPU-PoliCotton-Ripstop-Coyote.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 8,
+      "name": "Helikon CPU PoliCotton Ripstop Shorts Olive Green",
+      "price": "37.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96876_Szorty-Helikon-CPU-PoliCotton-Ripstop-Olive-Green.jpg",
+      "size": [
+         32
+      ]
+   },
+   {
+      "id": 9,
+      "name": "Brandit Urban Legend Shorts Black",
+      "price": "28.07",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98668_Szorty-Brandit-Urban-Legend-Black-2012-2-95303-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 10,
+      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
+      "price": "43.19",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
+      "id": 11,
+      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
+      "price": "37.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 12,
+      "name": "Helikon OTS 11 Shorts Ash Grey/Black",
+      "price": "32.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96170_szorty-helikon-ots-11-ash-grey-black-sp-otk-vl-8501a-h.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 13,
+      "name": "Helikon OTS 8,5 Shorts Khaki",
+      "price": "33.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96257_Szorty-Helikon-OTS-8-5-Khaki.jpg",
       "size": [
          32,
-         34,
+         38
+      ]
+   },
+   {
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
+      "size": [
+         32,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
          36,
          38
       ]
    },
    {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
       "size": [
          32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 1,
-      "name": "Sportif's Original Shorts",
-      "price": "67.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
-         36,
-         38
-      ]
-   },
-   {
-      "id": 2,
-      "name": "Sportif's Original Shorts",
-      "price": "241.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
-      "size": [
-         32,
-         34,
          36,
          38
       ]

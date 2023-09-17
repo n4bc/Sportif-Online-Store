@@ -216,10 +216,6 @@ section {
   width: 90%;
 }
 
-.cards--products {
-  width: 100%;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -229,10 +225,6 @@ section {
   background-color: #FFFFFF;
   width: 20%;
   padding: 30px 20px;
-}
-
-.card--products {
-  width: 33%;
 }
 
 .card-image {
@@ -250,7 +242,10 @@ section {
   font-weight: 500;
   font-size: 2.4rem;
   margin-bottom: 5px;
+  display: block;
+  overflow: hidden;
   line-height: 35px;
+  height: 40px;
 }
 
 .card__mark {
@@ -697,9 +692,6 @@ section {
   .card {
     width: 45%;
     margin-bottom: 30px;
-  }
-  .card__title {
-    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 992px) {

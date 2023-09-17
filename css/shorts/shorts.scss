@@ -16,6 +16,7 @@ $color5: #A04955;
 .header-bottom {
    display: flex;
    width: 100%;
+   padding-bottom: 30px;
 }
 
 .header-bottom__logo {
@@ -121,4 +122,32 @@ $color5: #A04955;
 
 .filter__list-item {}
 
-.cards {}
+.cards--catalog {
+   width: 100%;
+   gap: 30px;
+   justify-content: flex-start;
+}
+
+.card--catalog {
+   width: 30%;
+}
+
+.card-image {}
+
+.card-image__pic {}
+
+.card__title {}
+
+.card-content {}
+
+.card__mark {}
+
+.card__price {}
+
+.card__button {}
+
+.button {}
+
+.uppercase {}
+
+.card__button-image {}

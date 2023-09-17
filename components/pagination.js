@@ -32,7 +32,7 @@ export function pagination() {
          paginatedData.forEach(el => {
             const cardEl = document.createElement('div');
             cardEl.classList.add("card")
-            cardEl.classList.add("card--products")
+            cardEl.classList.add("card--catalog")
             cardEl.innerHTML = `
             <div class="card-image">
             <img class="card-image__pic"
@@ -41,7 +41,6 @@ export function pagination() {
          </div >
          <h3 class="card__title">${el.name}</h3>
          <div class="card-content">
-            <img class="card__mark" src="./image/collections/review-5stars.png" alt="5 stars">
             <p class="card__price">As low as <strong>${el.price}</strong></p>
             <button class="card__button button uppercase">
                <span class="uppercase">ADD TO CART</span>
@@ -62,3 +61,12 @@ export function pagination() {
 
    main()
 }
+
+
+
+
+
+
+
+
+// 

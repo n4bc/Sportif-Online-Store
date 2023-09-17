@@ -5,6 +5,7 @@
 .header-bottom {
   display: flex;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 .header-bottom__logo {
@@ -81,4 +82,14 @@
   grid-template-columns: 0.3fr 0.9fr;
   align-items: center;
   background-color: #F1F1F1;
+}
+
+.cards--catalog {
+  width: 100%;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.card--catalog {
+  width: 30%;
 }/*# sourceMappingURL=shorts.css.map */
