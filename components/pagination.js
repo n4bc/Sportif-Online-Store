@@ -1,20 +1,4 @@
 export function pagination() {
-   // fetch("../components/data.json")
-   //    .then(function (response) {
-   //       return response.json()
-   //    })
-   //    .then(function (products) {
-   //       let placeholder = document.querySelector("#data-output");
-   //       let out = ""
-   //       console.log(products)
-   //       for (let product of products) {
-   //          out += `
-   //          <li class="filter__list-item">30 ${product.id}</li>
-
-   //          `
-   //       }
-   //       placeholder.innerHTML = out
-   //    })
    async function getData() {
       const response = await fetch("../components/data.json")
       const data = await response.json()
@@ -53,7 +37,10 @@ export function pagination() {
             ;
 
       }
-      function displayPagination() { }
+      function displayPagination(arrData, rowPerPage) {
+         const paginationEl = document.querySelector(".pagination");
+         const pagesCount = Math.ceil(arrData.lenght / rowPerPage)
+      }
       function displayPaginationBtn() { }
       displayList(postsData, rows, currentPage)
    }
