@@ -82,14 +82,29 @@
   grid-template-columns: 0.3fr 0.9fr;
   align-items: center;
   background-color: #F1F1F1;
+  padding: 20px 60px;
 }
 
-.cards--catalog {
+.pagination {
   width: 100%;
-  gap: 30px;
-  justify-content: flex-start;
 }
 
-.card--catalog {
-  width: 30%;
+.pagination__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination__item {
+  padding: 10px 15px;
+  border: 1px solid #A04955;
+  cursor: pointer;
+  color: #A04955;
+}
+.pagination__item:not(:last-child) {
+  margin-right: 10px;
+}
+.pagination__item:hover {
+  color: #FFFFFF;
+  background-color: #A04955;
+  transition: all 0.3s linear;
 }/*# sourceMappingURL=shorts.css.map */
