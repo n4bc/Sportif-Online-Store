@@ -80,9 +80,19 @@
 .catalog {
   display: grid;
   grid-template-columns: 0.3fr 0.9fr;
-  align-items: center;
   background-color: #F1F1F1;
   padding: 20px 60px;
+}
+
+.catalog-filter {
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.cards--catalog {
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 20px;
 }
 
 .pagination {
@@ -99,6 +109,7 @@
   border: 1px solid #A04955;
   cursor: pointer;
   color: #A04955;
+  transition: all 0.3s linear;
 }
 .pagination__item:not(:last-child) {
   margin-right: 10px;
@@ -106,5 +117,8 @@
 .pagination__item:hover {
   color: #FFFFFF;
   background-color: #A04955;
-  transition: all 0.3s linear;
+}
+.pagination__item--active {
+  color: #FFFFFF;
+  background-color: #A04955;
 }/*# sourceMappingURL=shorts.css.map */

@@ -245,11 +245,11 @@ section {
 
 // cards
 .cards {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
    width: 90%;
+   margin: 0 auto;
+   gap: 30px;
 }
 
 
@@ -260,19 +260,21 @@ section {
    text-align: center;
    justify-content: space-between;
    background-color: $color4;
-   width: 20%;
+   width: 100%;
    padding: 30px 20px;
 }
 
 
 .card-image {
-   margin-bottom: 10px;
-}
-
-.card-image__pic {
    width: 100%;
-   max-width: 165px;
-   height: auto;
+   object-fit: contain;
+
+   margin-bottom: 10px;
+
+   img {
+      width: 100%;
+      height: 100%;
+   }
 }
 
 .card__title {

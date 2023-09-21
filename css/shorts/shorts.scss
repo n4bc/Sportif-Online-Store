@@ -106,13 +106,15 @@ $color5: #A04955;
 .catalog {
    display: grid;
    grid-template-columns: 0.3fr 0.9fr;
-   align-items: center;
 
    background-color: #F1F1F1;
    padding: 20px 60px;
 }
 
-.catalog-filter {}
+.catalog-filter {
+   background-color: #fff;
+   margin-right: 20px;
+}
 
 .filter {}
 
@@ -122,15 +124,13 @@ $color5: #A04955;
 
 .filter__list-item {}
 
-// .cards--catalog {
-//    width: 100%;
-//    gap: 30px;
-//    justify-content: center;
-// }
+.cards--catalog {
+   grid-template-columns: repeat(3, 1fr);
+   width: 100%;
+   gap: 20px;
+}
 
-// .card--catalog {
-//    width: 30%;
-// }
+.card--catalog {}
 
 // pagination
 .pagination {
@@ -147,6 +147,7 @@ $color5: #A04955;
    border: 1px solid $color5;
    cursor: pointer;
    color: $color5;
+   transition: all .3s linear;
 
    &:not(:last-child) {
       margin-right: 10px;
@@ -155,7 +156,12 @@ $color5: #A04955;
    &:hover {
       color: $color4;
       background-color: $color5;
-      transition: all .3s linear;
+
+   }
+
+   &--active {
+      color: $color4;
+      background-color: $color5;
    }
 }
 

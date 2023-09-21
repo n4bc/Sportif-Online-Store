@@ -7,23 +7,24 @@ export function pagination() {
 
    async function main() {
       const postsData = await getData()
-      let currentPage = 1, rows = 11;
+      let currentPage = 1, rows = 10;
       function displayList(arrData, rowPerPage, page) {
          page--
          const cardsEl = document.querySelector('[data-id="products"]'),
             start = rowPerPage * page,
             end = rowPerPage + start,
             paginatedData = arrData.slice(start, end);
+         cardsEl.innerHTML = "";
          paginatedData.forEach(el => {
             const cardEl = document.createElement('div');
             cardEl.classList.add("card")
             cardEl.classList.add("card--catalog")
             cardEl.innerHTML = `
-            <div class="card-image">
+            <a href="#" class="card-image">
             <img class="card-image__pic"
                src= ${el.src}
                alt="${el.name}">
-         </div >
+         </a >
          <a href="#" class="card__title" title="${el.name}">${el.name}</a>
          <div class="card-content">
             <p class="card__price">As low as <strong>${el.price}</strong></p>
@@ -55,8 +56,13 @@ export function pagination() {
          const liEl = document.createElement('li')
          liEl.classList.add('pagination__item')
          liEl.innerText = page
+         if (currentPage == page) liEl.classList.add("pagination__item--active");
+
          liEl.addEventListener("click", () => {
             currentPage = page
+            let currentItemLi = document.querySelector("li.pagination__item--active")
+            currentItemLi.classList.remove("pagination__item--active")
+            liEl.classList.add('pagination__item--activegt')
             displayList(postsData, rows, currentPage)
          })
 
