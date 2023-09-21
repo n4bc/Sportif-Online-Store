@@ -62,7 +62,7 @@ export function pagination() {
             currentPage = page
             let currentItemLi = document.querySelector("li.pagination__item--active")
             currentItemLi.classList.remove("pagination__item--active")
-            liEl.classList.add('pagination__item--activegt')
+            liEl.classList.add('pagination__item--active')
             displayList(postsData, rows, currentPage)
          })
 
