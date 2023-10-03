@@ -20,11 +20,11 @@ export function pagination() {
             cardEl.classList.add("card")
             cardEl.classList.add("card--catalog")
             cardEl.innerHTML = `
-            <a href="#" class="card-image">
-            <img class="card-image__pic"
+            <a href="#" class="card__image">
+            <img 
                src= ${el.src}
                alt="${el.name}">
-         </a >
+            </a >
          <a href="#" class="card__title" title="${el.name}">${el.name}</a>
          <div class="card-content">
             <p class="card__price">As low as <strong>${el.price}</strong></p>
@@ -36,7 +36,6 @@ export function pagination() {
             `
             cardsEl.prepend(cardEl)
          })
-
             ;
 
       }
