@@ -120,6 +120,9 @@ $color6: #F1F1F1;
    padding: 25px;
    margin-right: 20px;
    align-self: start;
+   border: 1px solid $color5;
+
+
 
    &__button {
       margin-bottom: 15px;
@@ -148,6 +151,16 @@ $color6: #F1F1F1;
       grid-template-rows: repeat(2, 40px);
       gap: 23px;
 
+
+      padding-bottom: 30px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid $color5;
+
+
+      &:last-child {
+         border-bottom: 0;
+         margin-bottom: 0;
+      }
    }
 
    &__list-item {
@@ -166,8 +179,7 @@ $color6: #F1F1F1;
       &--selected {
          background-color: $color4;
          color: $color5;
-         border: 1px solid $color5;
-
+         border: 3px solid $color5;
       }
 
       &:hover,
@@ -178,8 +190,35 @@ $color6: #F1F1F1;
          border: 1px solid $color5;
          transform: scale(1.2);
       }
+
+      &[data-color="beige"] {
+         background-color: #9F8C76;
+      }
+
+      &[data-color="black"] {
+         background-color: $color1;
+      }
+
+      &[data-color="olive"] {
+         background-color: #808000;
+      }
+
+      &[data-color="grey"] {
+         background-color: $color3;
+      }
+
+      &[data-color="red"] {
+         background-color: #FF0000;
+      }
+
+      &[data-color="blue"] {
+         background-color: #0000FF;
+      }
    }
+
+
 }
+
 
 
 .cards--catalog {

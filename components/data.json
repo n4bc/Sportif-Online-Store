@@ -6,9 +6,12 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
       "size": [
          30,
-         34
+         32,
+         34,
+         36,
+         40
       ],
-      "color": "Olive"
+      "color": "olive"
    },
    {
       "id": 2,
@@ -17,9 +20,12 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98978_Szorty-Helikon-UTS-8-5-Black-98978-SP-UTS-PR-01-zdjecie-glowne.jpg",
       "size": [
          32,
-         38
+         34,
+         36,
+         42,
+         44
       ],
-      "color": "Black"
+      "color": "black"
    },
    {
       "id": 3,
@@ -28,9 +34,12 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100466_Szorty-Helikon-UTS-8-5-Shadow-Grey-SP-UTS-PR-35-100466-zdjecie-glowne.jpg",
       "size": [
          30,
-         32
+         32,
+         36,
+         38,
+         42
       ],
-      "color": "Shadow Grey"
+      "color": "grey"
    },
    {
       "id": 4,
@@ -38,10 +47,13 @@
       "price": "42.87",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96172_Szorty-Helikon-UTS-11-Crimson-SkyAsh-Grey-SP-UTK-PR-8385A-135957-zdjecie-glowne.jpg",
       "size": [
+         30,
+         32,
+         34,
          36,
-         40
+         38
       ],
-      "color": "Crimson Sky/Ash Grey"
+      "color": "red"
    },
    {
       "id": 5,
@@ -50,9 +62,13 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/7/97073_Szorty-Helikon-BDU-Cotton-Ripstop-US-Desert.jpg",
       "size": [
          30,
-         38
+         32,
+         34,
+         36,
+         38,
+         42
       ],
-      "color": "US Desert"
+      "color": "beige"
    },
    {
       "id": 6,
@@ -60,10 +76,13 @@
       "price": "55.00",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100735_Szorty-Texar-WZ10-Olive-527-01-WZ10S-PA-84931-zdjecie-glowne.jpg",
       "size": [
+         30,
          32,
-         46
+         34,
+         36,
+         40
       ],
-      "color": "Olive"
+      "color": "olive"
    },
    {
       "id": 7,
@@ -72,9 +91,12 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96881_Szorty-Helikon-CPU-PoliCotton-Ripstop-Coyote.jpg",
       "size": [
          30,
+         32,
+         36,
+         38,
          42
       ],
-      "color": "Coyote"
+      "color": "beige"
    },
    {
       "id": 8,
@@ -82,10 +104,13 @@
       "price": "37.00",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96876_Szorty-Helikon-CPU-PoliCotton-Ripstop-Olive-Green.jpg",
       "size": [
+         30,
          32,
-         46
+         36,
+         38,
+         42
       ],
-      "color": "Olive Green"
+      "color": "olive"
    },
    {
       "id": 9,
@@ -94,9 +119,12 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98668_Szorty-Brandit-Urban-Legend-Black-2012-2-95303-zdjecie-glowne.jpg",
       "size": [
          30,
-         38
+         32,
+         36,
+         38,
+         42
       ],
-      "color": "Black"
+      "color": "black"
    },
    {
       "id": 10,
@@ -104,10 +132,13 @@
       "price": "43.19",
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
       "size": [
+         30,
          32,
-         46
+         36,
+         38,
+         42
       ],
-      "color": "Coyote"
+      "color": "beige"
    },
    {
       "id": 11,
@@ -116,140 +147,139 @@
       "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
       "size": [
          30,
-         36
+         32,
+         36,
+         38,
+         42
       ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
-   },
-   {
-      "id": 11,
-      "name": "Pentagon Ranger 2.0 Shorts - Coyote",
-      "price": "37.00",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/2/7/274315_szorty-pentagon-ranger-2-0-coyote-k05007-2-0-sh.jpg",
-      "size": [
-         30,
-         36
-      ],
-      "color": "Coyote"
+      "color": "beige"
    },
    {
       "id": 12,
-      "name": "Helikon OTS 11 Shorts Ash Grey",
-      "price": "45.45",
-      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/5/95219_Szorty-Helikon-OTS-11-Ash-Grey-95932-SP-OTS-PR-35-zdjecie-glowne.jpg",
+      "name": "Helikon OTS 11 Shorts Ash Grey/Black",
+      "price": "32.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96170_szorty-helikon-ots-11-ash-grey-black-sp-otk-vl-8501a-h.jpg",
       "size": [
+         30,
+         32,
          36,
+         38,
+         42
+      ],
+      "color": "grey"
+   },
+   {
+      "id": 13,
+      "name": "Helikon OTS 8,5 Shorts Khaki",
+      "price": "33.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96257_Szorty-Helikon-OTS-8-5-Khaki.jpg",
+      "size": [
+         30,
+         32,
+         38,
+         42,
+         44
+      ],
+      "color": "beige"
+   },
+   {
+      "id": 14,
+      "name": "Texar WZ10 Shorts - PL Camo wz.93",
+      "price": "55.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/100161_Szorty-Texar-WZ10-PL-Camo-wz-93-01-WZ10S-PA-72406-zdjecie-glowne.jpg",
+      "size": [
+         30,
+         32,
+         36,
+         38,
          40
       ],
-      "color": "Ash Grey"
+      "color": "olive"
+   },
+   {
+      "id": 15,
+      "name": "Helikon UTS 8,5 Blue",
+      "price": "52.00",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/6/96221_Szorty-Helikon-UTS-8-5-Denim-Stretch-Marine-Blue-SP-UTS-DS-97-96221-zdjecie-glowne.jpg",
+      "size": [
+         30,
+         36,
+         38,
+         42
+      ],
+      "color": "blue"
+   },
+   {
+      "id": 16,
+      "name": "Texar Dominus",
+      "price": "35.10",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/6/5/650458_dominus-kro-tkie-denim.jpg",
+      "size": [
+         30,
+         32,
+         42
+      ],
+      "color": "blue"
+   },
+   {
+      "id": 17,
+      "name": "Brandit Urban Legend",
+      "price": "64.20",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/9/8/98672_Szorty-Brandit-Urban-Legend-Navy-1003774-przod.jpg",
+      "size": [
+         36,
+         42
+      ],
+      "color": "blue"
+   },
+   {
+      "id": 18,
+      "name": "Brandit Savage - Beige",
+      "price": "53.21",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/1081444_szorty-brandit-savage-beige-glowne-1.jpg",
+      "size": [
+         32,
+         36,
+         38,
+         42
+      ],
+      "color": "beige"
+   },
+   {
+      "id": 19,
+      "name": "Brandit Savage - Beige",
+      "price": "53.21",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/0/1081444_szorty-brandit-savage-beige-glowne-1.jpg",
+      "size": [
+         32,
+         36,
+         38,
+         42
+      ],
+      "color": "beige"
+   },
+   {
+      "id": 20,
+      "name": "M-Tac Aggressor Short",
+      "price": "51.21",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/3/0/303898_Szorty-M-Tac-Aggressor-Short-Black.jpg",
+      "size": [
+         32,
+         36,
+         42
+      ],
+      "color": "black"
+   },
+   {
+      "id": 21,
+      "name": "Helikon Greyman Tactical",
+      "price": "21.11",
+      "src": "https://cdn.militaria.pl/media/catalog/product/cache/e452159aead1684753d5e9341f2edeb6/1/7/176390_Szorty-Helikon-Greyman-Tactical-DuraCanvas-czarny-SP-GTK-DC-01.jpg",
+      "size": [
+         32,
+         36,
+         42
+      ],
+      "color": "black"
    }
 ]
