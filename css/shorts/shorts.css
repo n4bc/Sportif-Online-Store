@@ -81,6 +81,7 @@
   display: grid;
   grid-template-columns: 0.25fr 0.9fr;
   grid-template-rows: auto;
+  min-height: 100vh;
   background-color: #F1F1F1;
   padding: 20px 60px;
 }
@@ -125,6 +126,11 @@
   background-color: #F1F1F1;
   color: #000000;
   transition: all 0.3s ease;
+}
+.filter__list-item--selected {
+  background-color: #FFFFFF;
+  color: #A04955;
+  border: 1px solid #A04955;
 }
 .filter__list-item:hover, .filter__list-item:active {
   cursor: pointer;

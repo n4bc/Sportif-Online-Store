@@ -108,6 +108,7 @@ $color6: #F1F1F1;
    display: grid;
    grid-template-columns: 0.25fr 0.9fr;
    grid-template-rows: auto;
+   min-height: 100vh;
    background-color: $color6;
    padding: 20px 60px;
 }
@@ -138,7 +139,6 @@ $color6: #F1F1F1;
          cursor: pointer;
          background-color: $color4;
          color: $color5;
-
       }
    }
 
@@ -162,6 +162,13 @@ $color6: #F1F1F1;
       background-color: $color6;
       color: $color1;
       transition: all .3s ease;
+
+      &--selected {
+         background-color: $color4;
+         color: $color5;
+         border: 1px solid $color5;
+
+      }
 
       &:hover,
       &:active {
