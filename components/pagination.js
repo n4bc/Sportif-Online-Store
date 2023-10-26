@@ -241,20 +241,20 @@ export function pagination() {
             cardEl.classList.add("card");
             cardEl.classList.add("card--catalog");
             cardEl.innerHTML = `
-            <a href="#" class="card__image">
-              <img 
-                src="${el.src}"
-                alt="${el.name}">
-            </a>
-            <a href="#" class="card__title" title="${el.name}">${el.name}</a>
-            <div class="card-content">
-              <p class="card__price">As low as <strong>${el.price}</strong></p>
-              <button class="card__button button uppercase">
-                <img class="card__button-image" src="../image/collections/add-button.svg" alt="shopping bag logos">
-                <span class="uppercase">ADD TO CART</span>
-              </button>
-            </div>
-          `;
+                  <a href="#" class="card__image">
+                      <img 
+                          src="${el.src}"
+                          alt="${el.name}">
+                  </a>
+                  <a href="#" class="card__title" title="${el.name}">${el.name}</a>
+                  <div class="card-content">
+                      <p class="card__price">As low as <strong>${el.price}</strong></p>
+                      <button class="card__button button uppercase">
+                          <img class="card__button-image" src="../image/collections/add-button.svg" alt="shopping bag logos">
+                          <span class="uppercase">ADD TO CART</span>
+                      </button>
+                  </div>
+              `;
             cardsEl.appendChild(cardEl);
          });
       }
@@ -263,7 +263,7 @@ export function pagination() {
          const liEl = document.createElement('li');
          liEl.classList.add('pagination__item');
          liEl.innerText = page;
-         if (currentPage == page) liEl.classList.add("pagination__item--active");
+         if (currentPage === page) liEl.classList.add("pagination__item--active");
 
          liEl.addEventListener("click", () => {
             currentPage = page;
@@ -296,8 +296,8 @@ export function pagination() {
          } else {
             // Фильтруйте товары по всем выбранным размерам и цветам
             return postsData.filter(product =>
-               selectedSizes.some(size => product.size.includes(size)) &&
-               selectedColors.some(color => product.color.includes(color))
+               (selectedSizes.length === 0 || selectedSizes.some(size => product.size.includes(size))) &&
+               (selectedColors.length === 0 || selectedColors.includes(product.color))
             );
          }
       }
@@ -330,7 +330,7 @@ export function pagination() {
       const colorFilters = document.querySelector('.filter__list.filter__list--color'); // Замените '.filter__list.filter__list--color' на соответствующий селектор
 
       colorFilters.addEventListener("click", (e) => {
-         if (e.target.classList.contains('filter__list-item.filter__list-item--color')) {
+         if (e.target.classList.contains('filter__list-item')) {
             const clickedColor = e.target.dataset.color; // Предполагается, что цвет хранится в атрибуте 'data-color'
 
             if (selectedColors.includes(clickedColor)) {
@@ -353,7 +353,6 @@ export function pagination() {
 
       displayList(filteredData(), rows, currentPage);
       displayPagination(filteredData(), rows);
-      console.log(selectedSizes);
    }
 
    main();
