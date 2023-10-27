@@ -8,6 +8,7 @@
    <title>Shorts</title>
    <link rel="stylesheet" href="../css/main/main.css">
    <link rel="stylesheet" href="../css/shorts/shorts.css">
+   <link rel="stylesheet" href="../css/product/product.css">
    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet">
@@ -62,7 +63,7 @@
                      <li class="breadcrumbs__item uppercase"><span>SHORTS</span></li>
                   </ul>
                </nav>
-               <input class="search" type="search" placeholder="SEARCH">
+               <!-- <input class="search" type="search" placeholder="SEARCH"> -->
             </div>
          </div>
       </div>
@@ -98,9 +99,14 @@
             <button type="button" class="filter__button">
                PRICE
             </button>
-            <ul class="filter__list filter__list--price">
+            <div class="filter__price">
+               <label for="minPrice">Min Price:</label>
+               <input type="number" id="minPrice" placeholder="0">
+               <label for="maxPrice">Max Price:</label>
+               <input type="number" id="maxPrice" placeholder="1000">
+               <button class="filter__price-button" id="priceFilter">Filter by Price</button>
+            </div>
 
-            </ul>
          </aside>
          <div class="catalog--cards">
             <div class="cards cards--catalog" data-id="products">
@@ -113,6 +119,144 @@
 
       </section>
    </main>
+   <footer>
+      <section class="footer">
+         <div class="container">
+            <div class="footer__content">
+               <nav class="footer__nav">
+                  <ul class="footer__menu">
+                     <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">ORDERING ONLINE
+                        </h3>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Account Login
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Our Guarantee
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Sportif
+                           Stretch Guide
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Size Chart &
+                           Sizing Information
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Hemming
+                           Information
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Ordering &
+                           Payment
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Shipping
+                           Information
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Returns
+                        </a>
+                     </li>
+                  </ul>
+                  <ul class="footer__menu">
+                     <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">
+                           ABOUT SPORTIF
+                        </h3>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           COVID-19 Response
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           History
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Legacy
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Good Sam Program
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Privacy & Security
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Terms & Conditions
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Careers
+                        </a>
+                     </li>
+                  </ul>
+                  <ul class="footer__menu">
+                     <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">
+                           QUICK LINKS
+                        </h3>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           FAQs
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Shop Online Catalog
+                        </a>
+                     </li>
+                     <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">
+                           Contact Us
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="footer__sign">
+                  <h3 class="footer__sign-title">GET TO KNOW US</h3>
+                  <p class="footer__text">Sign up for our weekly newsletter and get a 10% off coupon
+                     by
+                     email for your first order!</p>
+                  <form class="footer-form">
+                     <label for="mail" class="footer-form__label">
+                        Sign Up for Our Newsletter:</label>
+                     <div class="footer-form__cover">
+                        <input type="email" id="mail" placeholder="EMAIL ADDRESS"
+                           class="footer-form__mail">
+                        <button class="footer-form__button button" type="submit">SUBSCRIBE</button>
+                     </div>
+                  </form>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="copyright">
+         <div class="container">
+            <h6 class="copyright__text">©2021 Sportif Mailorder. All Rights Reserved.</h6>
+         </div>
+      </div>
+   </footer>
    <script src="../main.js" type="module"></script>
 </body>
 

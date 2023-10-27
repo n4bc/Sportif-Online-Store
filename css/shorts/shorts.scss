@@ -24,72 +24,7 @@ $color6: #F1F1F1;
    margin-right: 10px;
 }
 
-.breadcrumbs-search {
-   display: grid;
-   grid-template-columns: 0.3fr 0.9fr;
-   align-items: center;
-   width: 100%;
 
-   .breadcrumbs__list {
-      font-family: $oswald;
-      font-weight: 400;
-      font-size: 2.4rem;
-
-
-
-      & li {
-         display: inline-block;
-         position: relative;
-         padding-left: 30px;
-
-         &::before {
-            content: url(../../image/header/home.svg);
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            top: 0;
-            left: 0;
-         }
-
-         & a {
-            color: $color1;
-            opacity: 0.7;
-            margin-right: 10px;
-
-            &:hover {
-               color: $color5;
-               transition: all 0.3s linear;
-            }
-         }
-
-
-      }
-
-      & li:last-child span {
-         color: $color1;
-      }
-
-      & li+li {
-         padding-left: 30px;
-      }
-
-      & li+li::before {
-         content: '';
-         display: inline-block;
-         background-color: transparent;
-         width: 15px;
-         height: 15px;
-         border-right: 2px solid $color1;
-         border-top: 2px solid $color1;
-         transform: rotateZ(45deg);
-         position: absolute;
-         top: 25%;
-         left: 0;
-         transform: translate(-25%) rotateZ(45deg)
-      }
-   }
-}
 
 
 
@@ -190,30 +125,60 @@ $color6: #F1F1F1;
          border: 1px solid $color5;
          transform: scale(1.2);
       }
+   }
 
-      &[data-color="beige"] {
-         background-color: #9F8C76;
+   [data-color="beige"] {
+      background-color: #9F8C76;
+   }
+
+   [data-color="black"] {
+      background-color: $color1;
+   }
+
+   [data-color="olive"] {
+      background-color: #808000;
+   }
+
+   [data-color="grey"] {
+      background-color: $color3;
+   }
+
+   [data-color="red"] {
+      background-color: #FF0000;
+   }
+
+   [data-color="blue"] {
+      background-color: #0000FF;
+   }
+
+   &__price {
+      font-family: $oswald;
+      font-weight: 400;
+      font-size: 2rem;
+      background-color: $color4;
+      color: $color1;
+      transition: all .3s ease;
+
+      input[type="number"] {
+         display: block;
+         outline: none;
+         margin: 10px 0;
       }
 
-      &[data-color="black"] {
-         background-color: $color1;
+      &-button {
+         font-family: $oswald;
+         font-weight: 400;
+         font-size: 2rem;
+         padding: 10px;
+         border: 1px solid $color5;
+         transition: all .2s ease;
+
+         &:hover {
+            background-color: $color5;
+            color: $color4;
+         }
       }
 
-      &[data-color="olive"] {
-         background-color: #808000;
-      }
-
-      &[data-color="grey"] {
-         background-color: $color3;
-      }
-
-      &[data-color="red"] {
-         background-color: #FF0000;
-      }
-
-      &[data-color="blue"] {
-         background-color: #0000FF;
-      }
    }
 
 
@@ -228,7 +193,6 @@ $color6: #F1F1F1;
    margin-bottom: 20px;
 }
 
-.card--catalog {}
 
 // pagination
 .pagination {
